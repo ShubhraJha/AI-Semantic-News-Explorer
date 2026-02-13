@@ -113,7 +113,8 @@ Powered by:
 
 OpenWeather
 
-🏗 Project Architecture
+## 🏗 Project Architecture
+'''
 RSS Feeds
     ↓
 Article Extraction
@@ -129,7 +130,7 @@ User Query
 Semantic Similarity Search
     ↓
 Ranked Results Displayed in Streamlit
-
+'''
 Main application file.
 
 - Builds UI
