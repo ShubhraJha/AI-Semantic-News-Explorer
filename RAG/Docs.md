@@ -1,6 +1,6 @@
 # AI News Aggregator & Summarizer – Project Documentation
 
-## 1. Project Overview
+## Project Overview
 The **AI News Aggregator & Summarizer** is an intelligent platform that aggregates news from multiple global and Indian sources, compresses content, and delivers relevant results through embedding-based semantic search.  
 
 It allows users to perform multi-query semantic searches, receive AI-style summaries, and access trending or personalized articles in real-time.  
@@ -9,7 +9,7 @@ This project combines web scraping, NLP, vector search, and Streamlit UI develop
 
 ---
 
-## 2. Motivation
+## Motivation
 Traditional news platforms often rely on simple keyword searches, which may fail to capture context or relevance. This project leverages **Natural Language Processing (NLP)** and **vector embeddings** to:  
 
 - Understand semantic meaning behind user queries  
@@ -19,7 +19,7 @@ Traditional news platforms often rely on simple keyword searches, which may fail
 
 ---
 
-## 3. Features
+## Features
 
 ### Core Features
 1. **Multi-Query Semantic Search**  
@@ -52,7 +52,7 @@ Traditional news platforms often rely on simple keyword searches, which may fail
 
 ---
 
-## 4. News Sources Integrated
+## News Sources Integrated
 The application currently supports a mix of global and Indian news sources:
 
 - **Global:** BBC News, The New York Times, The Guardian, Al Jazeera, CNN, The Economist, The Washington Post, NPR  
@@ -61,7 +61,7 @@ The application currently supports a mix of global and Indian news sources:
 
 ---
 
-## 5. Project Architecture
+## Project Architecture
 RSS Feeds
 ↓
 Article Extraction
@@ -79,7 +79,7 @@ Semantic Similarity Search
 Ranked Results Displayed in Streamlit
 
 
-## 6. File Structure & Description
+## File Structure & Description
 
 | File | Description |
 |------|-------------|
@@ -88,7 +88,7 @@ Ranked Results Displayed in Streamlit
 | `semantic_search.py` | Embedding model loader and search engine. Creates FAISS index, performs similarity search. |
 | `compressed_news.json` | Preprocessed dataset containing compressed news articles and metadata. |
 
-## 7. Technologies Used
+## Technologies Used
 - **Programming Language:** Python  
 - **Web Framework:** Streamlit  
 - **RSS Parsing:** feedparser  
@@ -98,7 +98,7 @@ Ranked Results Displayed in Streamlit
 - **Data Storage:** JSON  
 - **APIs:** OpenWeather (for personalization)  
 
-## 8. Installation & Setup
+## Installation & Setup
 1. **Clone the repository**
    ```bash
    git clone <repo_url>
@@ -114,14 +114,14 @@ Ranked Results Displayed in Streamlit
 5. **Run the Streamlit app**
   streamlit run app.py
 
-## 9. Usage Instructions
+## Usage Instructions
 -Enter one or multiple search queries in the search box.
 -View ranked article results with AI-style summaries.
 -Click article links to visit the original source.
 -Personalized weather info displayed at the top.
 -Trending and recommended articles appear dynamically.
 
-## 10. Strengths of the Project
+## Strengths of the Project
 -Multi-source, real-time news aggregation
 -NLP-based extractive summarization
 -Semantic search beyond keywords
@@ -129,7 +129,7 @@ Ranked Results Displayed in Streamlit
 -Interactive and user-friendly UI
 -Personalization through live weather detection
 
-## 11. Future Improvements
+## Future Improvements
 -Transformer-based abstractive summarization
 -Cloud deployment (Streamlit Cloud or AWS)
 -Integration with a database (PostgreSQL)
@@ -137,12 +137,12 @@ Ranked Results Displayed in Streamlit
 -News clustering for topic-based organization
 -Auto-refresh to fetch latest news continuously
 
-## 12. References
+## References
 -Streamlit Documentation
 -Newspaper3k Documentation
 -Sentence Transformers
 -FAISS Library
 -OpenWeather API
 
-## 13. Author
-Shubhra Jha – AI & Web Developer
+## Author
+Shubhra Jha
